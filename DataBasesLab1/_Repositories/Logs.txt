@@ -1,0 +1,1370 @@
+Изменен элемент:
+update Employer set title=@title, id_activity=@id_activity, adress=@adress, phone=@phone where id_employer=@id 19.10.2022 19:30:05
+Изменен элемент с id:4
+update Employer set title=@title, id_activity=@id_activity, adress=@adress, phone=@phone where id_employer=@id
+Sven	4	Tolya 3	044123654	19.10.2022 19:50:08
+Добавлен элемент:
+insert into Employer values (@title, @id_activity, @adress, @phone)
+Denuvo	3	Kalinov 7	0642589563	19.10.2022 19:51:16
+Удален элемент с id:7
+delete from Employer where id_employer=@id
+Denuvo	3	Kalinov 7	0642589563	19.10.2022 19:55:56
+Изменен элемент с id:4
+update Employer set title=@title, id_activity=@id_activity, adress=@adress, phone=@phone where id_employer=@id
+Sven	3	Tolya 3	044123654	19.10.2022 19:58:31
+Изменен элемент с id:4
+update Employer set title=@title, id_activity=@id_activity, adress=@adress, phone=@phone where id_employer=@id
+Sven	4	Tolya 3	044123654	19.10.2022 20:01:46
+Изменен элемент с id:4
+update Employer set title=@title, id_activity=@id_activity, adress=@adress, phone=@phone where id_employer=@id
+Sven	3	Tolya 3	044123654	19.10.2022 20:01:57
+Изменен элемент с id:4
+update Employer set title=@title, id_activity=@id_activity, adress=@adress, phone=@phone where id_employer=@id
+Sven	4	Tolya 3	044123654	19.10.2022 20:02:42
+Изменен элемент с id:4
+update Employer set title=@title, id_activity=@id_activity, adress=@adress, phone=@phone where id_employer=@id
+Sven	3	Tolya 3	044123654	19.10.2022 20:08:09
+Изменен элемент с id:4
+update Employer set title=@title, id_activity=@id_activity, adress=@adress, phone=@phone where id_employer=@id
+Sven	4	Tolya 3	044123654	19.10.2022 20:09:19
+Изменен элемент с id:4
+update Employer set title=@title, id_activity=@id_activity, adress=@adress, phone=@phone where id_employer=@id
+Sven	3	Tolya 3	044123654	19.10.2022 20:13:01
+Изменен элемент с id:4
+update Employer set title=@title, id_activity=@id_activity, adress=@adress, phone=@phone where id_employer=@id
+Sven	4	Tolya 3	044123654	19.10.2022 20:13:13
+Изменен элемент с id:4
+update Employer set title=@title, id_activity=@id_activity, adress=@adress, phone=@phone where id_employer=@id
+Sven	3	Tolya 3	044123654	20.10.2022 12:55:20
+Удален элемент с id:4
+Select * from Agreement where id_employer=@id
+4	5	-	0	20.10.2022 12:55:20
+Добавлен элемент:
+insert into Agreement values (@id_employer, @id_employee, @post, @commission)
+4	2	-	0	20.10.2022 12:55:20
+Изменен элемент с id:1
+update Employee set surname=@surname, name=@name, patronymic=@patronymic, qualification=@qualification, id_activity=@id_activity, addition=@addition, salary=@salary where id_employee=@id
+Anton	Gubar	Olex	High	3		300	20.10.2022 12:56:16
+Удален элемент с id:1
+Select * from Agreement where id_employee=@id
+1	1	Admin	150	20.10.2022 12:56:16
+Добавлен элемент:
+insert into Agreement values (@id_employer, @id_employee, @post, @commission)
+3	1	-	0	20.10.2022 12:56:16
+Удален элемент с id:6
+Select * from Agreement where id_employee=@id
+3	1	-	0	20.10.2022 12:56:16
+Добавлен элемент:
+insert into Agreement values (@id_employer, @id_employee, @post, @commission)
+4	1	-	0	20.10.2022 12:56:16
+Изменен элемент с id:4
+update Employer set title=@title, id_activity=@id_activity, adress=@adress, phone=@phone where id_employer=@id
+Sven	4	Tolya 3	044123654	20.10.2022 12:58:56
+Удален элемент с id:5
+Select * from Agreement where id_employer=@id
+4	2	-	0	20.10.2022 12:58:56
+Удален элемент с id:7
+Select * from Agreement where id_employer=@id
+4	1	-	0	20.10.2022 12:58:56
+Добавлен элемент:
+insert into Agreement values (@id_employer, @id_employee, @post, @commission)
+4	5	-	0	20.10.2022 12:58:56
+Изменен элемент с id:4
+update Employer set title=@title, id_activity=@id_activity, adress=@adress, phone=@phone where id_employer=@id
+Sven	3	Tolya 3	044123654	20.10.2022 13:00:44
+Удален элемент с id:8
+Select * from Agreement where id_employer=@id
+4	5	-	0	20.10.2022 13:00:44
+Добавлен элемент:
+insert into Agreement values (@id_employer, @id_employee, @post, @commission)
+4	1	-	0	20.10.2022 13:00:44
+Удален элемент с id:9
+Select * from Agreement where id_employer=@id
+4	1	-	0	20.10.2022 13:00:44
+Добавлен элемент:
+insert into Agreement values (@id_employer, @id_employee, @post, @commission)
+4	2	-	0	20.10.2022 13:00:44
+Изменен элемент с id:10
+update Agreement set post=@post, commission=@commission where id_agreement=@id
+4	2	Prog	155	20.10.2022 13:01:18
+Изменен элемент с id:0
+update Agreement set post=@post, commission=@commission where id_agreement=@id
+0	0		0	20.10.2022 13:01:18
+Изменен элемент с id:2
+update Employee set surname=@surname, name=@name, patronymic=@patronymic, qualification=@qualification, id_activity=@id_activity, addition=@addition, salary=@salary where id_employee=@id
+Oleg	Redis	Valen	Mid	4		250	20.10.2022 13:02:10
+Изменен элемент с id:2
+update Employee set surname=@surname, name=@name, patronymic=@patronymic, qualification=@qualification, id_activity=@id_activity, addition=@addition, salary=@salary where id_employee=@id
+Oleg	Redis	Valen	Mid	5		250	20.10.2022 13:03:32
+Изменен элемент с id:2
+update Employee set surname=@surname, name=@name, patronymic=@patronymic, qualification=@qualification, id_activity=@id_activity, addition=@addition, salary=@salary where id_employee=@id
+Oleg	Redis	Valen	Mid	5		250	20.10.2022 13:03:32
+Изменен элемент с id:2
+update Employee set surname=@surname, name=@name, patronymic=@patronymic, qualification=@qualification, id_activity=@id_activity, addition=@addition, salary=@salary where id_employee=@id
+Oleg	Redis	Valen	Mid	5		250	20.10.2022 13:03:32
+Изменен элемент с id:2
+update Employee set surname=@surname, name=@name, patronymic=@patronymic, qualification=@qualification, id_activity=@id_activity, addition=@addition, salary=@salary where id_employee=@id
+Oleg	Redis	Valen	Mid	5		250	20.10.2022 13:03:32
+Изменен элемент с id:2
+update Employee set surname=@surname, name=@name, patronymic=@patronymic, qualification=@qualification, id_activity=@id_activity, addition=@addition, salary=@salary where id_employee=@id
+Oleg	Redis	Valen	Mid	5		250	20.10.2022 13:03:32
+Изменен элемент с id:2
+update Employee set surname=@surname, name=@name, patronymic=@patronymic, qualification=@qualification, id_activity=@id_activity, addition=@addition, salary=@salary where id_employee=@id
+Oleg	Redis	Valen	Mid	5		250	20.10.2022 13:03:39
+Изменен элемент с id:2
+update Employee set surname=@surname, name=@name, patronymic=@patronymic, qualification=@qualification, id_activity=@id_activity, addition=@addition, salary=@salary where id_employee=@id
+Oleg	Redis	Valen	Mid	5		250	20.10.2022 13:03:39
+Изменен элемент с id:2
+update Employee set surname=@surname, name=@name, patronymic=@patronymic, qualification=@qualification, id_activity=@id_activity, addition=@addition, salary=@salary where id_employee=@id
+Oleg	Redis	Valen	Mid	5		250	20.10.2022 13:03:39
+Изменен элемент с id:2
+update Employee set surname=@surname, name=@name, patronymic=@patronymic, qualification=@qualification, id_activity=@id_activity, addition=@addition, salary=@salary where id_employee=@id
+Oleg	Redis	Valen	Mid	5		250	20.10.2022 13:03:39
+Изменен элемент с id:2
+update Employee set surname=@surname, name=@name, patronymic=@patronymic, qualification=@qualification, id_activity=@id_activity, addition=@addition, salary=@salary where id_employee=@id
+Oleg	Redis	Valen	Mid	5		250	20.10.2022 13:03:39
+Изменен элемент с id:2
+update Employee set surname=@surname, name=@name, patronymic=@patronymic, qualification=@qualification, id_activity=@id_activity, addition=@addition, salary=@salary where id_employee=@id
+Oleg	Redis	Valen	Mid	2		250	20.10.2022 13:03:44
+Изменен элемент с id:2
+update Employee set surname=@surname, name=@name, patronymic=@patronymic, qualification=@qualification, id_activity=@id_activity, addition=@addition, salary=@salary where id_employee=@id
+Oleg	Redis	Valen	Mid	2		250	20.10.2022 13:03:44
+Изменен элемент с id:2
+update Employee set surname=@surname, name=@name, patronymic=@patronymic, qualification=@qualification, id_activity=@id_activity, addition=@addition, salary=@salary where id_employee=@id
+Oleg	Redis	Valen	Mid	2		250	20.10.2022 13:03:44
+Изменен элемент с id:2
+update Employee set surname=@surname, name=@name, patronymic=@patronymic, qualification=@qualification, id_activity=@id_activity, addition=@addition, salary=@salary where id_employee=@id
+Oleg	Redis	Valen	Mid	2		250	20.10.2022 13:03:44
+Изменен элемент с id:2
+update Employee set surname=@surname, name=@name, patronymic=@patronymic, qualification=@qualification, id_activity=@id_activity, addition=@addition, salary=@salary where id_employee=@id
+Oleg	Redis	Valen	Mid	2		250	20.10.2022 13:03:44
+Изменен элемент с id:2
+update Employee set surname=@surname, name=@name, patronymic=@patronymic, qualification=@qualification, id_activity=@id_activity, addition=@addition, salary=@salary where id_employee=@id
+Oleg	Redis	Valen	Mid	3		250	20.10.2022 13:03:53
+Изменен элемент с id:2
+update Employee set surname=@surname, name=@name, patronymic=@patronymic, qualification=@qualification, id_activity=@id_activity, addition=@addition, salary=@salary where id_employee=@id
+Oleg	Redis	Valen	Mid	3		250	20.10.2022 13:03:53
+Изменен элемент с id:2
+update Employee set surname=@surname, name=@name, patronymic=@patronymic, qualification=@qualification, id_activity=@id_activity, addition=@addition, salary=@salary where id_employee=@id
+Oleg	Redis	Valen	Mid	3		250	20.10.2022 13:03:53
+Изменен элемент с id:2
+update Employee set surname=@surname, name=@name, patronymic=@patronymic, qualification=@qualification, id_activity=@id_activity, addition=@addition, salary=@salary where id_employee=@id
+Oleg	Redis	Valen	Mid	3		250	20.10.2022 13:03:53
+Изменен элемент с id:2
+update Employee set surname=@surname, name=@name, patronymic=@patronymic, qualification=@qualification, id_activity=@id_activity, addition=@addition, salary=@salary where id_employee=@id
+Oleg	Redis	Valen	Mid	3		250	20.10.2022 13:03:53
+Изменен элемент с id:2
+update Employee set surname=@surname, name=@name, patronymic=@patronymic, qualification=@qualification, id_activity=@id_activity, addition=@addition, salary=@salary where id_employee=@id
+Oleg	Redis	Valen	Mid	5		250	20.10.2022 13:04:10
+Изменен элемент с id:2
+update Employee set surname=@surname, name=@name, patronymic=@patronymic, qualification=@qualification, id_activity=@id_activity, addition=@addition, salary=@salary where id_employee=@id
+Oleg	Redis	Valen	Mid	5		250	20.10.2022 13:04:10
+Изменен элемент с id:2
+update Employee set surname=@surname, name=@name, patronymic=@patronymic, qualification=@qualification, id_activity=@id_activity, addition=@addition, salary=@salary where id_employee=@id
+Oleg	Redis	Valen	Mid	5		250	20.10.2022 13:04:10
+Изменен элемент с id:2
+update Employee set surname=@surname, name=@name, patronymic=@patronymic, qualification=@qualification, id_activity=@id_activity, addition=@addition, salary=@salary where id_employee=@id
+Oleg	Redis	Valen	Mid	5		250	20.10.2022 13:04:10
+Изменен элемент с id:2
+update Employee set surname=@surname, name=@name, patronymic=@patronymic, qualification=@qualification, id_activity=@id_activity, addition=@addition, salary=@salary where id_employee=@id
+Oleg	Redis	Valen	Mid	5		250	20.10.2022 13:04:10
+Изменен элемент с id:2
+update Employee set surname=@surname, name=@name, patronymic=@patronymic, qualification=@qualification, id_activity=@id_activity, addition=@addition, salary=@salary where id_employee=@id
+Oleg	Redis	Valen	Mid	5		250	20.10.2022 13:04:10
+Изменен элемент с id:2
+update Employee set surname=@surname, name=@name, patronymic=@patronymic, qualification=@qualification, id_activity=@id_activity, addition=@addition, salary=@salary where id_employee=@id
+Oleg	Redis	Valen	Mid	5		250	20.10.2022 13:04:10
+Изменен элемент с id:2
+update Employee set surname=@surname, name=@name, patronymic=@patronymic, qualification=@qualification, id_activity=@id_activity, addition=@addition, salary=@salary where id_employee=@id
+Oleg	Redis	Valen	Mid	5		250	20.10.2022 13:04:10
+Изменен элемент с id:2
+update Employee set surname=@surname, name=@name, patronymic=@patronymic, qualification=@qualification, id_activity=@id_activity, addition=@addition, salary=@salary where id_employee=@id
+Oleg	Redis	Valen	Mid	5		250	20.10.2022 13:04:10
+Изменен элемент с id:2
+update Employee set surname=@surname, name=@name, patronymic=@patronymic, qualification=@qualification, id_activity=@id_activity, addition=@addition, salary=@salary where id_employee=@id
+Oleg	Redis	Valen	Mid	3		250	20.10.2022 13:04:56
+Изменен элемент с id:2
+update Employee set surname=@surname, name=@name, patronymic=@patronymic, qualification=@qualification, id_activity=@id_activity, addition=@addition, salary=@salary where id_employee=@id
+Oleg	Redis	Valen	Mid	4		250	20.10.2022 13:06:48
+Изменен элемент с id:4
+update Employer set title=@title, id_activity=@id_activity, adress=@adress, phone=@phone where id_employer=@id
+Sven	4	Tolya 3	044123654	20.10.2022 13:09:59
+Удален элемент с id:10
+Select * from Agreement where id_employer=@id
+4	2	Prog	155	20.10.2022 13:09:59
+Добавлен элемент:
+insert into Agreement values (@id_employer, @id_employee, @post, @commission)
+4	2	-	0	20.10.2022 13:09:59
+Удален элемент с id:11
+Select * from Agreement where id_employer=@id
+4	2	-	0	20.10.2022 13:09:59
+Добавлен элемент:
+insert into Agreement values (@id_employer, @id_employee, @post, @commission)
+4	5	-	0	20.10.2022 13:09:59
+Изменен элемент с id:2
+update Employer set title=@title, id_activity=@id_activity, adress=@adress, phone=@phone where id_employer=@id
+Asus	3	Bogdana 5	055777266	20.10.2022 13:10:24
+Удален элемент с id:2
+Select * from Agreement where id_employer=@id
+2	6	Prog	180	20.10.2022 13:10:24
+Добавлен элемент:
+insert into Agreement values (@id_employer, @id_employee, @post, @commission)
+2	1	-	0	20.10.2022 13:10:24
+Изменен элемент с id:4
+update Employer set title=@title, id_activity=@id_activity, adress=@adress, phone=@phone where id_employer=@id
+Sven	3	Tolya 3	044123654	20.10.2022 13:11:47
+Удален элемент с id:12
+Select * from Agreement where id_employer=@id
+4	5	-	0	20.10.2022 13:12:48
+Добавлен элемент:
+insert into Agreement values (@id_employer, @id_employee, @post, @commission)
+4	1	-	0	20.10.2022 13:13:05
+Добавлен элемент:
+insert into Employer values (@title, @id_activity, @adress, @phone)
+Kolo	4	Bigi 17	0335876542	20.10.2022 13:16:06
+Добавлен элемент:
+insert into Employer values (@title, @id_activity, @adress, @phone)
+Kolo	4	Bigi 17	0335876542	20.10.2022 13:16:20
+Добавлен элемент:
+insert into Employer values (@title, @id_activity, @adress, @phone)
+Kolo	4	Bigi 17	0335876542	20.10.2022 13:16:38
+Удален элемент с id:10
+delete from Employer where id_employer=@id
+Kolo	4	Bigi 17	0335876542	20.10.2022 13:17:19
+Удален элемент с id:8
+delete from Employer where id_employer=@id
+Kolo	4	Bigi 17	0335876542	20.10.2022 13:17:19
+Удален элемент с id:9
+delete from Employer where id_employer=@id
+Kolo	4	Bigi 17	0335876542	20.10.2022 13:17:32
+Удален элемент с id:3
+delete from Employer where id_employer=@id
+Lenovo	3	Polo 10	099321456	20.10.2022 13:17:32
+Удален элемент с id:9
+delete from Employer where id_employer=@id
+	0			20.10.2022 13:17:32
+Удален элемент с id:9
+delete from Employer where id_employer=@id
+	0			20.10.2022 13:17:32
+Добавлен элемент:
+insert into Employer values (@title, @id_activity, @adress, @phone)
+Kolo	4	Bigi 10	065487512	20.10.2022 13:18:09
+Добавлен элемент:
+insert into Employer values (@title, @id_activity, @adress, @phone)
+Kolo	4	Bigi 10	065487512	20.10.2022 13:18:09
+Добавлен элемент:
+insert into Employer values (@title, @id_activity, @adress, @phone)
+Kolo	4	Bigi 10	065487512	20.10.2022 13:18:10
+Добавлен элемент:
+insert into Employer values (@title, @id_activity, @adress, @phone)
+Kolo	4	Bigi 10	065487512	20.10.2022 13:18:10
+Добавлен элемент:
+insert into Employer values (@title, @id_activity, @adress, @phone)
+Kolo	4	Bigi 10	065487512	20.10.2022 13:18:10
+Удален элемент с id:15
+delete from Employer where id_employer=@id
+Kolo	4	Bigi 10	065487512	20.10.2022 13:18:53
+Удален элемент с id:14
+delete from Employer where id_employer=@id
+Kolo	4	Bigi 10	065487512	20.10.2022 13:18:57
+Удален элемент с id:13
+delete from Employer where id_employer=@id
+Kolo	4	Bigi 10	065487512	20.10.2022 13:19:00
+Удален элемент с id:12
+delete from Employer where id_employer=@id
+Kolo	4	Bigi 10	065487512	20.10.2022 13:19:03
+Удален элемент с id:11
+delete from Employer where id_employer=@id
+Kolo	4	Bigi 10	065487512	20.10.2022 13:19:06
+Добавлен элемент:
+insert into Employer values (@title, @id_activity, @adress, @phone)
+Kolo	4	Join 5	0666	20.10.2022 13:26:17
+Удален элемент с id:16
+delete from Employer where id_employer=@id
+Kolo	4	Join 5	0666	20.10.2022 13:26:49
+Добавлен элемент:
+insert into Employer values (@title, @id_activity, @adress, @phone)
+kolo	4	goko 2	0666	20.10.2022 13:27:06
+Удален элемент с id:17
+delete from Employer where id_employer=@id
+kolo	4	goko 2	0666	20.10.2022 13:31:30
+Добавлен элемент:
+insert into Employer values (@title, @id_activity, @adress, @phone)
+klo	4	joko	0666	20.10.2022 13:34:06
+Удален элемент с id:18
+delete from Employer where id_employer=@id
+klo	4	joko	0666	20.10.2022 13:34:20
+Удален элемент с id:18
+delete from Employer where id_employer=@id
+	0			20.10.2022 13:34:20
+Изменен элемент с id:4
+update Employer set title=@title, id_activity=@id_activity, adress=@adress, phone=@phone where id_employer=@id
+Sven	4	Tolya 3	044123654	20.10.2022 13:34:26
+Удален элемент с id:14
+Select * from Agreement where id_employer=@id
+4	1	-	0	20.10.2022 13:34:26
+Добавлен элемент:
+insert into Agreement values (@id_employer, @id_employee, @post, @commission)
+4	2	-	0	20.10.2022 13:34:26
+Удален элемент с id:27
+Select * from Agreement where id_employer=@id
+4	2	-	0	20.10.2022 13:34:26
+Добавлен элемент:
+insert into Agreement values (@id_employer, @id_employee, @post, @commission)
+4	5	-	0	20.10.2022 13:34:26
+Изменен элемент с id:4
+update Employer set title=@title, id_activity=@id_activity, adress=@adress, phone=@phone where id_employer=@id
+Sven	3	Tolya 3	044123654	21.10.2022 13:28:45
+Удален элемент с id:28
+Select * from Agreement where id_employer=@id
+4	5	-	0	21.10.2022 13:28:45
+Добавлен элемент:
+insert into Agreement values (@id_employer, @id_employee, @post, @commission)
+4	1	-	0	21.10.2022 13:28:45
+Добавлен элемент:
+insert into Employer values (@title, @id_activity, @adress, @phone)
+logo	4	loko	0666	21.10.2022 13:29:15
+Добавлен элемент:
+insert into Employer values (@title, @id_activity, @adress, @phone)
+logo	4	loko	0666	21.10.2022 13:29:15
+Добавлен элемент:
+insert into Employer values (@title, @id_activity, @adress, @phone)
+logo	4	loko	0666	21.10.2022 13:29:15
+Добавлен элемент:
+insert into Employer values (@title, @id_activity, @adress, @phone)
+logo	4	loko	0666	21.10.2022 13:29:15
+Добавлен элемент:
+insert into Employer values (@title, @id_activity, @adress, @phone)
+logo	4	loko	0666	21.10.2022 13:29:15
+Удален элемент с id:19
+delete from Employer where id_employer=@id
+logo	4	loko	0666	21.10.2022 13:38:54
+Удален элемент с id:19
+delete from Employer where id_employer=@id
+	0			21.10.2022 13:38:54
+Удален элемент с id:23
+delete from Employer where id_employer=@id
+logo	4	loko	0666	21.10.2022 13:38:57
+Удален элемент с id:22
+delete from Employer where id_employer=@id
+logo	4	loko	0666	21.10.2022 13:39:01
+Удален элемент с id:21
+delete from Employer where id_employer=@id
+logo	4	loko	0666	21.10.2022 13:39:03
+Удален элемент с id:20
+delete from Employer where id_employer=@id
+logo	4	loko	0666	21.10.2022 13:39:06
+Добавлен элемент:
+insert into Employer values (@title, @id_activity, @adress, @phone)
+loko	3	loko	0666	21.10.2022 13:39:29
+Удален элемент с id:24
+delete from Employer where id_employer=@id
+loko	3	loko	0666	21.10.2022 13:41:06
+Добавлен элемент:
+insert into Employer values (@title, @id_activity, @adress, @phone)
+oko	4	oko	0666	01.11.2022 19:36:02
+Удален элемент с id:1007
+delete from Employer where id_employer=@id
+oko	4	oko	0666	01.11.2022 19:37:30
+Удален элемент с id:1007
+delete from Employer where id_employer=@id
+	0			01.11.2022 19:37:30
+Добавлен элемент:
+insert into Employer values (@title, @id_activity, @adress, @phone)
+oko	4	oko	0666	01.11.2022 19:37:40
+Удален элемент с id:1008
+delete from Employer where id_employer=@id
+oko	4	oko	0666	01.11.2022 19:38:42
+Добавлен элемент:
+insert into Employer values (@title, @id_activity, @adress, @phone)
+oko	4	oko	0666	01.11.2022 19:38:51
+Удален элемент с id:1009
+delete from Employer where id_employer=@id
+oko	4	oko	0666	01.11.2022 19:39:18
+Добавлен элемент:
+insert into Employer values (@title, @id_activity, @adress, @phone)
+oko	4	oko	1666	01.11.2022 19:39:28
+Добавлен элемент:
+insert into Agreement values (@id_employer, @id_employee, @post, @commission)
+1010	2	-	0	01.11.2022 19:39:28
+Добавлен элемент:
+insert into Agreement values (@id_employer, @id_employee, @post, @commission)
+1010	5	-	0	01.11.2022 19:39:28
+Изменен элемент с id:1010
+update Employer set title=@title, id_activity=@id_activity, adress=@adress, phone=@phone where id_employer=@id
+oko	3	oko	1666	01.11.2022 19:39:58
+Удален элемент с id:1003
+Select * from Agreement where id_employer=@id
+1010	2	-	0	01.11.2022 19:39:58
+Удален элемент с id:1004
+Select * from Agreement where id_employer=@id
+1010	5	-	0	01.11.2022 19:39:58
+Добавлен элемент:
+insert into Agreement values (@id_employer, @id_employee, @post, @commission)
+1010	1	-	0	01.11.2022 19:39:58
+Изменен элемент с id:1010
+update Employer set title=@title, id_activity=@id_activity, adress=@adress, phone=@phone where id_employer=@id
+oko	4	oko	1666	01.11.2022 19:40:08
+Удален элемент с id:1005
+Select * from Agreement where id_employer=@id
+1010	1	-	0	01.11.2022 19:40:08
+Добавлен элемент:
+insert into Agreement values (@id_employer, @id_employee, @post, @commission)
+1010	2	-	0	01.11.2022 19:40:08
+Удален элемент с id:1006
+Select * from Agreement where id_employer=@id
+1010	2	-	0	01.11.2022 19:40:08
+Добавлен элемент:
+insert into Agreement values (@id_employer, @id_employee, @post, @commission)
+1010	5	-	0	01.11.2022 19:40:08
+Изменен элемент с id:1010
+update Employer set title=@title, id_activity=@id_activity, adress=@adress, phone=@phone where id_employer=@id
+oko	3	oko	1666	01.11.2022 19:51:38
+Удален элемент с id:1007
+Select * from Agreement where id_employer=@id
+1010	5	-	0	01.11.2022 19:51:38
+Добавлен элемент:
+insert into Agreement values (@id_employer, @id_employee, @post, @commission)
+1010	1	-	0	01.11.2022 19:51:38
+Изменен элемент с id:1010
+update Employer set title=@title, id_activity=@id_activity, adress=@adress, phone=@phone where id_employer=@id
+oko	4	oko	1666	01.11.2022 19:52:14
+Изменен элемент с id:1010
+update Employer set title=@title, id_activity=@id_activity, adress=@adress, phone=@phone where id_employer=@id
+oko	3	oko	1666	01.11.2022 19:54:02
+Изменен элемент с id:1010
+update Employer set title=@title, id_activity=@id_activity, adress=@adress, phone=@phone where id_employer=@id
+oko	2	oko	1666	01.11.2022 19:54:18
+Удален элемент с id:1008
+Select * from Agreement where id_employer=@id
+1010	1	-	0	01.11.2022 19:54:18
+Добавлен элемент:
+insert into Agreement values (@id_employer, @id_employee, @post, @commission)
+1010	6	-	0	01.11.2022 19:54:19
+Добавлен элемент:
+insert into Employee values (@surname, @name, @patronymic, @qualification, @id_activity, @addition, @salary)
+Lo	Op	POl	High	3		100	01.11.2022 19:55:05
+Добавлен элемент:
+insert into Employee values (@surname, @name, @patronymic, @qualification, @id_activity, @addition, @salary)
+Lo	Op	POl	High	3		100	01.11.2022 19:55:05
+Добавлен элемент:
+insert into Employee values (@surname, @name, @patronymic, @qualification, @id_activity, @addition, @salary)
+Lo	Op	POl	High	3		100	01.11.2022 19:55:05
+Добавлен элемент:
+insert into Employee values (@surname, @name, @patronymic, @qualification, @id_activity, @addition, @salary)
+Lo	Op	POl	High	3		100	01.11.2022 19:55:05
+Добавлен элемент:
+insert into Employee values (@surname, @name, @patronymic, @qualification, @id_activity, @addition, @salary)
+Lo	Op	POl	High	3		100	01.11.2022 19:55:05
+Удален элемент с id:11
+delete from Employee where id_employee=@id
+Lo	Op	POl	High	3		100	01.11.2022 19:55:14
+Удален элемент с id:10
+delete from Employee where id_employee=@id
+Lo	Op	POl	High	3		100	01.11.2022 19:55:17
+Удален элемент с id:9
+delete from Employee where id_employee=@id
+Lo	Op	POl	High	3		100	01.11.2022 19:55:19
+Удален элемент с id:8
+delete from Employee where id_employee=@id
+Lo	Op	POl	High	3		100	01.11.2022 19:55:22
+Удален элемент с id:7
+delete from Employee where id_employee=@id
+Lo	Op	POl	High	3		100	01.11.2022 19:55:24
+Изменен элемент с id:1010
+update Employer set title=@title, id_activity=@id_activity, adress=@adress, phone=@phone where id_employer=@id
+oko	4	oko	1666	01.11.2022 20:10:02
+Удален элемент с id:1009
+Select * from Agreement where id_employer=@id
+1010	6	-	0	01.11.2022 20:10:02
+Добавлен элемент:
+insert into Agreement values (@id_employer, @id_employee, @post, @commission)
+1010	2	-	0	01.11.2022 20:10:02
+Добавлен элемент:
+insert into Agreement values (@id_employer, @id_employee, @post, @commission)
+1010	5	-	0	01.11.2022 20:10:02
+Изменен элемент с id:2
+update Employee set surname=@surname, name=@name, patronymic=@patronymic, qualification=@qualification, id_activity=@id_activity, addition=@addition, salary=@salary where id_employee=@id
+Oleg	Redis	Valen	Mid	5		250	01.11.2022 20:10:45
+Удален элемент с id:1015
+Select * from Agreement where id_employee=@id
+1010	2	-	0	01.11.2022 20:10:45
+Добавлен элемент:
+insert into Agreement values (@id_employer, @id_employee, @post, @commission)
+1	2	-	0	01.11.2022 20:10:45
+Добавлен элемент:
+insert into Employee values (@surname, @name, @patronymic, @qualification, @id_activity, @addition, @salary)
+Rog	Gon	Lop	Mid	5		155	01.11.2022 21:01:55
+Добавлен элемент:
+insert into Agreement values (@id_employer, @id_employee, @post, @commission)
+1	12	-	0	01.11.2022 21:01:55
+Добавлен элемент:
+insert into Employer values (@title, @id_activity, @adress, @phone)
+opo	3	opo	0333	04.11.2022 13:02:51
+Добавлен элемент:
+insert into Agreement values (@id_employer, @id_employee, @post, @commission)
+2007	1	-	0	04.11.2022 13:02:51
+Добавлен элемент:
+insert into Employer (title, adress, phone, activity_id_activity) values (:title, :adress, :phone, :activity_id_activity)
+News	11	Bopl 1	+380111	11.12.2022 23:06:23
+Изменен элемент с id:25
+update Employer set title=:title, adress=:adress, phone=:phone, activity_id_activity=:id_activity where id_employer=:id
+News	10	Bopl 11	+380111	11.12.2022 23:22:26
+Изменен элемент с id:25
+update Employer set title=:title, adress=:adress, phone=:phone, activity_id_activity=:id_activity where id_employer=:id
+News	10	Bopl 11	+380111	11.12.2022 23:24:24
+Изменен элемент с id:25
+update Employer set title=:title, adress=:adress, phone=:phone, activity_id_activity=:id_activity where id_employer=:id
+News	10	Bopl 11	+380111	11.12.2022 23:25:38
+Добавлен элемент:
+insert into Employer (title, adress, phone, activity_id_activity) values (:title, :adress, :phone, :activity_id_activity)
+Mop	9	Ter 2	+380777	11.12.2022 23:26:27
+Удален элемент с id:26
+delete from Employer where id_employer=:id
+Mop	9	Ter 2	+380777	11.12.2022 23:26:41
+Удален элемент с id:25
+delete from Employer where id_employer=:id
+News	11	Bopl 1	+380111	11.12.2022 23:26:41
+Удален элемент с id:26
+delete from Employer where id_employer=:id
+	0			11.12.2022 23:26:41
+Добавлен элемент:
+insert into Employer (title, adress, phone, activity_id_activity) values (:title, :adress, :phone, :activity_id_activity)
+Pop	11	pop 11	0666	11.12.2022 23:28:08
+Удален элемент с id:27
+delete from Employer where id_employer=:id
+Pop	11	pop 11	0666	11.12.2022 23:28:17
+Изменен элемент с id:24
+update Employer set title=:title, adress=:adress, phone=:phone, activity_id_activity=:id_activity where id_employer=:id
+Qwer	10	Vest 41	+380222	11.12.2022 23:28:35
+Добавлен элемент:
+insert into Employer (title, adress, phone, activity_id_activity) values (:title, :adress, :phone, :activity_id_activity)
+Qwer	8	Potr 4	+380666	13.12.2022 9:06:00
+Добавлен элемент:
+insert into Employer (title, adress, phone, activity_id_activity) values (:title, :adress, :phone, :activity_id_activity)
+Mel	9	Lodk 7	+380444	13.12.2022 9:06:30
+Изменен элемент с id:22
+update Employer set title=:title, adress=:adress, phone=:phone, activity_id_activity=:id_activity where id_employer=:id
+Mel	11	Lodk 7	+380444	13.12.2022 9:07:03
+Добавлен элемент:
+insert into Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Insert', 'Mid', '', 450, 9)
+To	How	Insert	Mid	9		450	13.12.2022 9:30:45
+Добавлен элемент:
+insert into Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Insert', 'Mid', '', 450, 9)
+To	How	Insert	Mid	9		450	13.12.2022 9:30:46
+Добавлен элемент:
+insert into Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Insert', 'Mid', '', 450, 9)
+To	How	Insert	Mid	9		450	13.12.2022 9:30:46
+Добавлен элемент:
+insert into Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Insert', 'Mid', '', 450, 9)
+To	How	Insert	Mid	9		450	13.12.2022 9:30:46
+Добавлен элемент:
+insert into Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Insert', 'Mid', 'What', 450, 9)
+To	How	Insert	Mid	9	What	450	13.12.2022 9:30:55
+Добавлен элемент:
+insert into Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Insert', 'Mid', 'What', 450, 9)
+To	How	Insert	Mid	9	What	450	13.12.2022 9:30:56
+Добавлен элемент:
+insert into Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Insert', 'Mid', 'What', 450, 9)
+To	How	Insert	Mid	9	What	450	13.12.2022 9:30:56
+Добавлен элемент:
+insert into Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Insert', 'Mid', 'What', 450, 9)
+To	How	Insert	Mid	9	What	450	13.12.2022 9:30:57
+Удален элемент с id:36
+delete from Employee where id_employee=:id
+To	How	Insert	Mid	9	What	450	13.12.2022 9:33:17
+Удален элемент с id:35
+delete from Employee where id_employee=:id
+To	How	Insert	Mid	9	What	450	13.12.2022 9:33:19
+Удален элемент с id:34
+delete from Employee where id_employee=:id
+To	How	Insert	Mid	9	What	450	13.12.2022 9:33:22
+Удален элемент с id:33
+delete from Employee where id_employee=:id
+To	How	Insert	Mid	9	What	450	13.12.2022 9:33:24
+Добавлен элемент:
+insert into Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Insert', 'Mid', '', 450, 11)
+To	How	Insert	Mid	11		450	13.12.2022 9:34:43
+Добавлен элемент:
+insert into Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Insert', 'Mid', '', 450, 11)
+To	How	Insert	Mid	11		450	13.12.2022 9:34:44
+Добавлен элемент:
+insert into Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Insert', 'Mid', '', 450, 11)
+To	How	Insert	Mid	11		450	13.12.2022 9:34:44
+Удален элемент с id:31
+delete from Employee where id_employee=:id
+				0		0	13.12.2022 9:34:53
+Удален элемент с id:32
+delete from Employee where id_employee=:id
+				0		0	13.12.2022 9:34:53
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Insert', 'Mid', 'Some', 450, 12)
+To	How	Insert	Mid	12	Some	450	13.12.2022 9:39:25
+Изменен элемент с id:40
+update SYS.Employee set surname=:surname, name=:name, patronymic=:patronymic, qualification=:qualification, activity_id_activity=:id_activity, addition=:addition, salary=:salary where id_employee=:id
+To	How	Insert	Middle	12	Some	450	13.12.2022 9:40:54
+Изменен элемент с id:40
+update SYS.Employee set surname='How', name='To', patronymic='Insert', qualification='Middle', addition='Some', salary=450, activity_id_activity=12 where id_employee=40
+To	How	Insert	Middle	12	Some	450	13.12.2022 9:49:00
+Изменен элемент с id:22
+update Employer set title=:title, adress=:adress, phone=:phone, activity_id_activity=:id_activity where id_employer=:id
+Mellel	9	Lodk 7	+380444	13.12.2022 9:49:13
+Изменен элемент с id:22
+update Employer set title='Mellel', adress='Lodk 7', phone='+380444', activity_id_activity=9 where id_employer=22
+Mellel	9	Lodk 7	+380444	13.12.2022 9:51:29
+Добавлен элемент:
+insert into Employer (title, adress, phone, activity_id_activity) values ('Der', 'Mop 12', '+380777', 9)
+Der	9	Mop 12	+380777	13.12.2022 9:53:54
+Изменен элемент с id:41
+update Employer set title='Der', adress='Mop 15', phone='+380777', activity_id_activity=9 where id_employer=41
+Der	9	Mop 15	+380777	13.12.2022 9:54:08
+Добавлен элемент:
+insert into SYS.Employer (title, adress, phone, activity_id_activity) values ('Per', 'Bop 5', '+380555', 12)
+Per	12	Bop 5	+380555	13.12.2022 10:08:35
+Добавлен элемент:
+insert into SYS.Agreement (post, commission, term_id_term, employee_id_employee, employer_id_employer) values ('-', 0, 6, 40, 42)
+42	40	-	0	13.12.2022 10:08:36
+Изменен элемент с id:43
+update SYS.Agreement set post='Develop', commission=150 where id_agreement=43
+Per	To	Develop	150	13.12.2022 10:42:39
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Create', 'Low', 'Nothing', 300, 8)
+To	How	Create	Low	8	Nothing	300	13.12.2022 10:43:25
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Create', 'Low', 'Nothing', 300, 8)
+To	How	Create	Low	8	Nothing	300	13.12.2022 10:43:26
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Create', 'Low', 'Nothing', 300, 8)
+To	How	Create	Low	8	Nothing	300	13.12.2022 10:43:34
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Create', 'Low', 'Nothing', 300, 8)
+To	How	Create	Low	8	Nothing	300	13.12.2022 10:43:34
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Create', 'Low', 'Nothing', 300, 8)
+To	How	Create	Low	8	Nothing	300	13.12.2022 10:44:01
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Create', 'Low', 'Nothing', 300, 8)
+To	How	Create	Low	8	Nothing	300	13.12.2022 10:44:01
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Create', 'Low', 'Nothing', 300, 8)
+To	How	Create	Low	8	Nothing	300	13.12.2022 10:44:02
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Create', 'Low', 'Nothing', 300, 8)
+To	How	Create	Low	8	Nothing	300	13.12.2022 10:44:02
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Create', 'Low', 'Nothing', 300, 8)
+To	How	Create	Low	8	Nothing	300	13.12.2022 10:46:42
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Create', 'Low', 'Nothing', 300, 8)
+To	How	Create	Low	8	Nothing	300	13.12.2022 10:46:43
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Create', 'Low', 'Nothing', 300, 8)
+To	How	Create	Low	8	Nothing	300	13.12.2022 10:46:43
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Create', 'Low', 'Nothing', 300, 8)
+To	How	Create	Low	8	Nothing	300	13.12.2022 10:46:44
+Изменен элемент с id:42
+update SYS.Employer set title='Per', adress='Bop 5', phone='+380555', activity_id_activity=7 where id_employer=42
+Per	7	Bop 5	+380555	13.12.2022 11:06:55
+Изменен элемент с id:42
+update SYS.Employer set title='Per', adress='Bop 5', phone='+380555', activity_id_activity=7 where id_employer=42
+Per	7	Bop 5	+380555	13.12.2022 11:07:13
+Изменен элемент с id:42
+update SYS.Employer set title='Per', adress='Bop 5', phone='+380555', activity_id_activity=10 where id_employer=42
+Per	10	Bop 5	+380555	13.12.2022 11:10:10
+Удален элемент с id:43
+Select * from SYS.Agreement where employer_id_employer=42
+40	42	Develop	150	13.12.2022 11:26:36
+Удален элемент с id:42
+delete from SYS.Employer where id_employer=:id
+Per	10	Bop 5	+380555	13.12.2022 11:26:36
+Удален элемент с id:42
+delete from SYS.Employer where id_employer=:id
+				13.12.2022 11:26:36
+Добавлен элемент:
+insert into SYS.Employer (title, adress, phone, activity_id_activity) values ('Lot', 'Hop 2', '+380333', 12)
+Lot	12	Hop 2	+380333	13.12.2022 11:30:52
+Добавлен элемент:
+insert into SYS.Agreement (post, commission, term_id_term, employee_id_employee, employer_id_employer) values ('-', 0, 3, 40, 56)
+56	40	-	0	13.12.2022 11:30:52
+Добавлен элемент:
+insert into SYS.Employer (title, adress, phone, activity_id_activity) values ('Jet', 'Grot 15', '+380999', 12)
+Jet	12	Grot 15	+380999	13.12.2022 11:37:31
+Добавлен элемент:
+insert into SYS.Agreement (post, commission, term_id_term, employee_id_employee, employer_id_employer) values ('-', 0, 1, 40, 58)
+58	40	-	0	13.12.2022 11:37:32
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Edit', 'High', 'No', 600, 9)
+To	How	Edit	High	9	No	600	13.12.2022 11:43:50
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Edit', 'High', 'No', 600, 9)
+To	How	Edit	High	9	No	600	13.12.2022 11:43:50
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Edit', 'High', 'No', 600, 9)
+To	How	Edit	High	9	No	600	13.12.2022 11:43:51
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Edit', 'High', 'No', 600, 9)
+To	How	Edit	High	9	No	600	13.12.2022 11:43:51
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Edit', 'High', 'No', 600, 9)
+To	How	Edit	High	9	No	600	13.12.2022 11:43:52
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Edit', 'High', 'No', 600, 9)
+To	How	Edit	High	9	No	600	13.12.2022 11:43:52
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Edit', 'High', 'No', 600, 9)
+To	How	Edit	High	9	No	600	13.12.2022 11:43:53
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Edit', 'High', '-', 600, 9)
+To	How	Edit	High	9	-	600	13.12.2022 11:49:03
+Добавлен элемент:
+insert into SYS.Agreement (post, commission, term_id_term, employee_id_employee, employer_id_employer) values ('-', 0, 5, 67, 22)
+22	67	-	0	13.12.2022 11:49:03
+Добавлен элемент:
+insert into SYS.Agreement (post, commission, term_id_term, employee_id_employee, employer_id_employer) values ('-', 0, 2, 67, 41)
+41	67	-	0	13.12.2022 11:49:04
+Удален элемент с id:68
+Select * from SYS.Agreement where employee_id_employee=67
+67	22	-	0	13.12.2022 11:49:44
+Удален элемент с id:69
+Select * from SYS.Agreement where employee_id_employee=67
+67	41	-	0	13.12.2022 11:49:44
+Удален элемент с id:67
+delete from SYS.Employee where id_employee=:id
+To	How	Edit	High	9	-	600	13.12.2022 11:49:44
+Удален элемент с id:57
+Select * from SYS.Agreement where employee_id_employee=40
+40	56	-	0	13.12.2022 11:49:44
+Удален элемент с id:59
+Select * from SYS.Agreement where employee_id_employee=40
+40	58	-	0	13.12.2022 11:49:44
+Удален элемент с id:40
+delete from SYS.Employee where id_employee=:id
+To	How	Insert	Middle	12	Some	450	13.12.2022 11:49:44
+Удален элемент с id:40
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 11:49:45
+Удален элемент с id:67
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 11:49:45
+Удален элемент с id:67
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 11:49:46
+Удален элемент с id:67
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 11:49:46
+Удален элемент с id:67
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 11:49:47
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Delete', 'High', '-', 600, 9)
+To	How	Delete	High	9	-	600	13.12.2022 11:54:11
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Delete', 'High', '-', 600, 9)
+To	How	Delete	High	9	-	600	13.12.2022 11:54:12
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Delete', 'High', '-', 600, 9)
+To	How	Delete	High	9	-	600	13.12.2022 11:54:12
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Add', 'High', '-', 600, 9)
+To	How	Add	High	9	-	600	13.12.2022 12:07:23
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('Woh', 'Ot', 'Dda', 'Mid', '-', 350, 9)
+Ot	Woh	Dda	Mid	9	-	350	13.12.2022 12:11:08
+Добавлен элемент:
+insert into SYS.Agreement (post, commission, term_id_term, employee_id_employee, employer_id_employer) values ('-', 0, 4, 77, 22)
+22	77	-	0	13.12.2022 12:11:09
+Добавлен элемент:
+insert into SYS.Agreement (post, commission, term_id_term, employee_id_employee, employer_id_employer) values ('-', 0, 3, 77, 41)
+41	77	-	0	13.12.2022 12:11:09
+Удален элемент с id:78
+Select * from SYS.Agreement where employee_id_employee=77
+77	22	-	0	13.12.2022 12:12:06
+Удален элемент с id:79
+Select * from SYS.Agreement where employee_id_employee=77
+77	41	-	0	13.12.2022 12:12:06
+Удален элемент с id:77
+delete from SYS.Employee where id_employee=:id
+Ot	Woh	Dda	Mid	9	-	350	13.12.2022 12:12:06
+Удален элемент с id:77
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:12:07
+Удален элемент с id:77
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:12:07
+Удален элемент с id:77
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:12:08
+Удален элемент с id:77
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:12:08
+Удален элемент с id:77
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:12:09
+Удален элемент с id:76
+delete from SYS.Employee where id_employee=:id
+To	How	Add	High	9	-	600	13.12.2022 12:15:56
+Удален элемент с id:76
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:15:57
+Удален элемент с id:76
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:15:57
+Удален элемент с id:76
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:15:58
+Удален элемент с id:76
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:15:58
+Удален элемент с id:76
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:15:59
+Удален элемент с id:76
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:15:59
+Удален элемент с id:76
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:15:59
+Удален элемент с id:76
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:16:00
+Удален элемент с id:76
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:16:01
+Удален элемент с id:76
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:16:01
+Удален элемент с id:76
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:16:01
+Удален элемент с id:76
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:16:02
+Удален элемент с id:76
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:16:02
+Удален элемент с id:76
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:16:03
+Удален элемент с id:76
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:16:03
+Удален элемент с id:76
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:16:04
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Add', 'High', '-', 600, 9)
+To	How	Add	High	9	-	600	13.12.2022 12:17:23
+Добавлен элемент:
+insert into SYS.Agreement (post, commission, term_id_term, employee_id_employee, employer_id_employer) values ('-', 0, 6, 80, 22)
+22	80	-	0	13.12.2022 12:17:24
+Добавлен элемент:
+insert into SYS.Agreement (post, commission, term_id_term, employee_id_employee, employer_id_employer) values ('-', 0, 2, 80, 41)
+41	80	-	0	13.12.2022 12:17:24
+Удален элемент с id:81
+Select * from SYS.Agreement where employee_id_employee=80
+80	22	-	0	13.12.2022 12:18:33
+Удален элемент с id:82
+Select * from SYS.Agreement where employee_id_employee=80
+80	41	-	0	13.12.2022 12:18:33
+Удален элемент с id:80
+delete from SYS.Employee where id_employee=:id
+To	How	Add	High	9	-	600	13.12.2022 12:18:33
+Удален элемент с id:28
+delete from SYS.Employee where id_employee=:id
+Ilya	Mos	Alec	High	11	Some	950	13.12.2022 12:18:33
+Удален элемент с id:28
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:18:34
+Удален элемент с id:28
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:18:34
+Удален элемент с id:28
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:18:34
+Удален элемент с id:28
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:18:35
+Удален элемент с id:28
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:18:35
+Удален элемент с id:28
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:18:36
+Удален элемент с id:28
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:18:36
+Удален элемент с id:28
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:18:37
+Удален элемент с id:28
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:18:37
+Удален элемент с id:28
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:18:38
+Удален элемент с id:28
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:18:38
+Удален элемент с id:28
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:18:39
+Удален элемент с id:28
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:18:39
+Удален элемент с id:28
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:18:40
+Удален элемент с id:28
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:18:40
+Удален элемент с id:28
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:18:41
+Удален элемент с id:28
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:18:41
+Удален элемент с id:80
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:18:41
+Удален элемент с id:80
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:18:42
+Удален элемент с id:80
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:18:42
+Удален элемент с id:80
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:18:43
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('Woh', 'Ot', 'Eteled', 'High', '-', 550, 9)
+Ot	Woh	Eteled	High	9	-	550	13.12.2022 12:23:23
+Добавлен элемент:
+insert into SYS.Agreement (post, commission, term_id_term, employee_id_employee, employer_id_employer) values ('-', 0, 2, 83, 22)
+22	83	-	0	13.12.2022 12:23:23
+Добавлен элемент:
+insert into SYS.Agreement (post, commission, term_id_term, employee_id_employee, employer_id_employer) values ('-', 0, 2, 83, 41)
+41	83	-	0	13.12.2022 12:23:23
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Delete', 'Mid', '-', 450, 10)
+To	How	Delete	Mid	10	-	450	13.12.2022 12:23:51
+Удален элемент с id:86
+delete from SYS.Employee where id_employee=:id
+To	How	Delete	Mid	10	-	450	13.12.2022 12:24:24
+Удален элемент с id:86
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:24:24
+Удален элемент с id:86
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:24:24
+Удален элемент с id:86
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:24:25
+Удален элемент с id:86
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:24:25
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Delete', 'High', '-', 600, 10)
+To	How	Delete	High	10	-	600	13.12.2022 12:26:48
+Удален элемент с id:87
+delete from SYS.Employee where id_employee=:id
+To	How	Delete	High	10	-	600	13.12.2022 12:26:55
+Удален элемент с id:84
+Select * from SYS.Agreement where employee_id_employee=83
+22	83	-	0	13.12.2022 12:26:55
+Удален элемент с id:85
+Select * from SYS.Agreement where employee_id_employee=83
+41	83	-	0	13.12.2022 12:26:55
+Удален элемент с id:83
+delete from SYS.Employee where id_employee=:id
+Ot	Woh	Eteled	High	9	-	550	13.12.2022 12:26:55
+Удален элемент с id:83
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:26:56
+Удален элемент с id:83
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:26:56
+Удален элемент с id:83
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:26:57
+Удален элемент с id:83
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:26:57
+Удален элемент с id:83
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:26:57
+Удален элемент с id:83
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:26:58
+Удален элемент с id:83
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:26:58
+Удален элемент с id:83
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:26:59
+Удален элемент с id:83
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:26:59
+Удален элемент с id:87
+delete from SYS.Employee where id_employee=:id
+						0	13.12.2022 12:27:00
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('Woh', 'Ot', 'Eteled', 'High', '-', 650, 9)
+Ot	Woh	Eteled	High	9	-	650	13.12.2022 12:40:53
+Добавлен элемент:
+insert into SYS.Agreement (post, commission, term_id_term, employee_id_employee, employer_id_employer) values ('-', 0, 4, 88, 22)
+22	88	-	0	13.12.2022 12:40:53
+Добавлен элемент:
+insert into SYS.Agreement (post, commission, term_id_term, employee_id_employee, employer_id_employer) values ('-', 0, 1, 88, 41)
+41	88	-	0	13.12.2022 12:40:53
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Delete', 'mid', '-', 500, 10)
+To	How	Delete	mid	10	-	500	13.12.2022 12:41:13
+Удален элемент с id:91
+delete from SYS.Employee where id_employee=91
+To	How	Delete	mid	10	-	500	13.12.2022 12:41:28
+Удален элемент с id:89
+Select * from SYS.Agreement where employee_id_employee=88
+22	88	-	0	13.12.2022 12:41:28
+Удален элемент с id:90
+Select * from SYS.Agreement where employee_id_employee=88
+41	88	-	0	13.12.2022 12:41:28
+Удален элемент с id:88
+delete from SYS.Employee where id_employee=88
+Ot	Woh	Eteled	High	9	-	650	13.12.2022 12:41:28
+Удален элемент с id:91
+delete from SYS.Employee where id_employee=91
+						0	13.12.2022 12:41:28
+Удален элемент с id:91
+delete from SYS.Employee where id_employee=91
+						0	13.12.2022 12:41:29
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('Woh', 'Ot', 'Eteled', 'High', '-', 650, 9)
+Ot	Woh	Eteled	High	9	-	650	13.12.2022 12:44:31
+Добавлен элемент:
+insert into SYS.Agreement (post, commission, term_id_term, employee_id_employee, employer_id_employer) values ('-', 0, 2, 92, 22)
+22	92	-	0	13.12.2022 12:44:31
+Добавлен элемент:
+insert into SYS.Agreement (post, commission, term_id_term, employee_id_employee, employer_id_employer) values ('-', 0, 5, 92, 41)
+41	92	-	0	13.12.2022 12:44:32
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Delete', 'Mid', '-', 350, 10)
+To	How	Delete	Mid	10	-	350	13.12.2022 12:45:08
+Удален элемент с id:95
+delete from SYS.Employee where id_employee=95
+To	How	Delete	Mid	10	-	350	13.12.2022 12:46:33
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Delete', 'High', 'High', 650, 10)
+To	How	Delete	High	10	High	650	13.12.2022 12:52:33
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('What', 'Was', 'That', 'Mid', '-', 350, 8)
+Was	What	That	Mid	8	-	350	13.12.2022 12:53:07
+Добавлен элемент:
+insert into SYS.Agreement (post, commission, term_id_term, employee_id_employee, employer_id_employer) values ('-', 0, 2, 97, 21)
+21	97	-	0	13.12.2022 12:53:08
+Удален элемент с id:98
+Select * from SYS.Agreement where employee_id_employee=97
+21	97	-	0	13.12.2022 12:53:24
+Удален элемент с id:97
+delete from SYS.Employee where id_employee=97
+Was	What	That	Mid	8	-	350	13.12.2022 12:53:24
+Удален элемент с id:96
+delete from SYS.Employee where id_employee=96
+To	How	Delete	High	10	High	650	13.12.2022 12:53:24
+Удален элемент с id:97
+delete from SYS.Employee where id_employee=97
+						0	13.12.2022 12:53:25
+Удален элемент с id:97
+delete from SYS.Employee where id_employee=97
+						0	13.12.2022 12:53:25
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Delete', 'High', '-', 650, 10)
+To	How	Delete	High	10	-	650	13.12.2022 13:09:23
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('What', 'Is', 'This', 'Mid', '-', 500, 12)
+Is	What	This	Mid	12	-	500	13.12.2022 13:09:49
+Добавлен элемент:
+insert into SYS.Agreement (post, commission, term_id_term, employee_id_employee, employer_id_employer) values ('-', 0, 4, 100, 56)
+56	100	-	0	13.12.2022 13:09:49
+Добавлен элемент:
+insert into SYS.Agreement (post, commission, term_id_term, employee_id_employee, employer_id_employer) values ('-', 0, 5, 100, 58)
+58	100	-	0	13.12.2022 13:09:49
+Удален элемент с id:101
+Select * from SYS.Agreement where employee_id_employee=100
+56	100	-	0	13.12.2022 13:10:03
+Удален элемент с id:102
+Select * from SYS.Agreement where employee_id_employee=100
+58	100	-	0	13.12.2022 13:10:03
+Удален элемент с id:100
+delete from SYS.Employee where id_employee=100
+Is	What	This	Mid	12	-	500	13.12.2022 13:10:03
+Удален элемент с id:99
+delete from SYS.Employee where id_employee=99
+To	How	Delete	High	10	-	650	13.12.2022 13:10:05
+Удален элемент с id:100
+delete from SYS.Employee where id_employee=100
+						0	13.12.2022 13:10:06
+Удален элемент с id:100
+delete from SYS.Employee where id_employee=100
+						0	13.12.2022 13:10:07
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('Was', 'St', 'Por', 'High', '-', 650, 10)
+St	Was	Por	High	10	-	650	13.12.2022 13:17:43
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('Yot', 'Ret', 'Nop', 'Mid', '-', 450, 11)
+Ret	Yot	Nop	Mid	11	-	450	13.12.2022 13:18:58
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('Nop', 'Fer', 'Npo', 'Mid', '-', 500, 11)
+Fer	Nop	Npo	Mid	11	-	500	13.12.2022 13:19:22
+Удален элемент с id:105
+delete from SYS.Employee where id_employee=105
+Fer	Nop	Npo	Mid	11	-	500	13.12.2022 13:19:45
+Удален элемент с id:105
+delete from SYS.Employee where id_employee=105
+						0	13.12.2022 13:19:46
+Удален элемент с id:105
+delete from SYS.Employee where id_employee=105
+						0	13.12.2022 13:19:48
+Удален элемент с id:104
+delete from SYS.Employee where id_employee=104
+Ret	Yot	Nop	Mid	11	-	450	13.12.2022 13:20:02
+Удален элемент с id:104
+delete from SYS.Employee where id_employee=104
+						0	13.12.2022 13:20:04
+Удален элемент с id:104
+delete from SYS.Employee where id_employee=104
+						0	13.12.2022 13:20:05
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('Tur', 'Nop', 'Asd', 'Mid', '-', 500, 12)
+Nop	Tur	Asd	Mid	12	-	500	13.12.2022 13:20:41
+Добавлен элемент:
+insert into SYS.Agreement (post, commission, term_id_term, employee_id_employee, employer_id_employer) values ('-', 0, 2, 106, 56)
+56	106	-	0	13.12.2022 13:20:41
+Добавлен элемент:
+insert into SYS.Agreement (post, commission, term_id_term, employee_id_employee, employer_id_employer) values ('-', 0, 5, 106, 58)
+58	106	-	0	13.12.2022 13:20:41
+Удален элемент с id:107
+Select * from SYS.Agreement where employee_id_employee=106
+56	106	-	0	13.12.2022 13:21:29
+Удален элемент с id:108
+Select * from SYS.Agreement where employee_id_employee=106
+58	106	-	0	13.12.2022 13:21:29
+Удален элемент с id:106
+delete from SYS.Employee where id_employee=106
+Nop	Tur	Asd	Mid	12	-	500	13.12.2022 13:21:29
+Удален элемент с id:103
+delete from SYS.Employee where id_employee=103
+St	Was	Por	High	10	-	650	13.12.2022 13:21:30
+Удален элемент с id:103
+delete from SYS.Employee where id_employee=103
+						0	13.12.2022 13:21:32
+Удален элемент с id:103
+delete from SYS.Employee where id_employee=103
+						0	13.12.2022 13:21:33
+Удален элемент с id:106
+delete from SYS.Employee where id_employee=106
+						0	13.12.2022 13:21:34
+Удален элемент с id:106
+delete from SYS.Employee where id_employee=106
+						0	13.12.2022 13:21:36
+Удален элемент с id:106
+delete from SYS.Employee where id_employee=106
+						0	13.12.2022 13:21:37
+Удален элемент с id:106
+delete from SYS.Employee where id_employee=106
+						0	13.12.2022 13:21:39
+Удален элемент с id:106
+delete from SYS.Employee where id_employee=106
+						0	13.12.2022 13:21:40
+Удален элемент с id:106
+delete from SYS.Employee where id_employee=106
+						0	13.12.2022 13:21:42
+Удален элемент с id:106
+delete from SYS.Employee where id_employee=106
+						0	13.12.2022 13:21:43
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Delete', 'High', '-', 500, 12)
+To	How	Delete	High	12	-	500	13.12.2022 13:23:23
+Добавлен элемент:
+insert into SYS.Agreement (post, commission, term_id_term, employee_id_employee, employer_id_employer) values ('-', 0, 6, 109, 56)
+56	109	-	0	13.12.2022 13:23:23
+Добавлен элемент:
+insert into SYS.Agreement (post, commission, term_id_term, employee_id_employee, employer_id_employer) values ('-', 0, 5, 109, 58)
+58	109	-	0	13.12.2022 13:23:24
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('Wop', 'Nop', 'Got', 'High', '-', 500, 9)
+Nop	Wop	Got	High	9	-	500	13.12.2022 13:24:01
+Добавлен элемент:
+insert into SYS.Agreement (post, commission, term_id_term, employee_id_employee, employer_id_employer) values ('-', 0, 3, 112, 22)
+22	112	-	0	13.12.2022 13:24:01
+Добавлен элемент:
+insert into SYS.Agreement (post, commission, term_id_term, employee_id_employee, employer_id_employer) values ('-', 0, 3, 112, 41)
+41	112	-	0	13.12.2022 13:24:01
+Удален элемент с id:113
+Select * from SYS.Agreement where employee_id_employee=112
+22	112	-	0	13.12.2022 13:24:17
+Удален элемент с id:114
+Select * from SYS.Agreement where employee_id_employee=112
+41	112	-	0	13.12.2022 13:24:17
+Удален элемент с id:112
+delete from SYS.Employee where id_employee=112
+Nop	Wop	Got	High	9	-	500	13.12.2022 13:24:17
+Удален элемент с id:93
+Select * from SYS.Agreement where employee_id_employee=92
+22	92	-	0	13.12.2022 13:24:19
+Удален элемент с id:94
+Select * from SYS.Agreement where employee_id_employee=92
+41	92	-	0	13.12.2022 13:24:19
+Удален элемент с id:92
+delete from SYS.Employee where id_employee=92
+Ot	Woh	Eteled	High	9	-	650	13.12.2022 13:24:19
+Удален элемент с id:110
+Select * from SYS.Agreement where employee_id_employee=109
+56	109	-	0	13.12.2022 13:24:20
+Удален элемент с id:111
+Select * from SYS.Agreement where employee_id_employee=109
+58	109	-	0	13.12.2022 13:24:20
+Удален элемент с id:109
+delete from SYS.Employee where id_employee=109
+To	How	Delete	High	12	-	500	13.12.2022 13:24:20
+Удален элемент с id:109
+delete from SYS.Employee where id_employee=109
+						0	13.12.2022 13:24:22
+Удален элемент с id:112
+delete from SYS.Employee where id_employee=112
+						0	13.12.2022 13:24:23
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Delete', 'Mid', '-', 550, 9)
+To	How	Delete	Mid	9	-	550	13.12.2022 13:26:50
+Добавлен элемент:
+insert into SYS.Agreement (post, commission, term_id_term, employee_id_employee, employer_id_employer) values ('-', 0, 1, 115, 22)
+22	115	-	0	13.12.2022 13:26:50
+Добавлен элемент:
+insert into SYS.Agreement (post, commission, term_id_term, employee_id_employee, employer_id_employer) values ('-', 0, 4, 115, 41)
+41	115	-	0	13.12.2022 13:26:50
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('Jopa', 'Pol', 'Naya', 'High', '-', 650, 7)
+Pol	Jopa	Naya	High	7	-	650	13.12.2022 13:27:34
+Удален элемент с id:118
+delete from SYS.Employee where id_employee=118
+Pol	Jopa	Naya	High	7	-	650	13.12.2022 13:27:41
+Удален элемент с id:116
+Select * from SYS.Agreement where employee_id_employee=115
+22	115	-	0	13.12.2022 13:27:42
+Удален элемент с id:117
+Select * from SYS.Agreement where employee_id_employee=115
+41	115	-	0	13.12.2022 13:27:42
+Удален элемент с id:115
+delete from SYS.Employee where id_employee=115
+To	How	Delete	Mid	9	-	550	13.12.2022 13:27:43
+Удален элемент с id:118
+delete from SYS.Employee where id_employee=118
+						0	13.12.2022 13:27:44
+Удален элемент с id:118
+delete from SYS.Employee where id_employee=118
+						0	13.12.2022 13:27:45
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Delete', 'High', '-', 650, 12)
+To	How	Delete	High	12	-	650	13.12.2022 16:55:22
+Добавлен элемент:
+insert into SYS.Agreement (post, commission, term_id_term, employee_id_employee, employer_id_employer) values ('-', 0, 2, 119, 56)
+56	119	-	0	13.12.2022 16:55:23
+Добавлен элемент:
+insert into SYS.Agreement (post, commission, term_id_term, employee_id_employee, employer_id_employer) values ('-', 0, 2, 119, 58)
+58	119	-	0	13.12.2022 16:55:23
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('Woh', 'Ot', 'Eteled', 'Mid', '-', 300, 10)
+Ot	Woh	Eteled	Mid	10	-	300	13.12.2022 16:57:06
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('Pop', 'This', 'Shi', 'Low', '-', 250, 11)
+This	Pop	Shi	Low	11	-	250	13.12.2022 16:57:38
+Удален элемент с id:123
+delete from SYS.Employee where id_employee=123
+This	Pop	Shi	Low	11	-	250	13.12.2022 16:57:48
+Удален элемент с id:120
+Select * from SYS.Agreement where employee_id_employee=119
+56	119	-	0	13.12.2022 16:57:50
+Удален элемент с id:121
+Select * from SYS.Agreement where employee_id_employee=119
+58	119	-	0	13.12.2022 16:57:50
+Удален элемент с id:119
+delete from SYS.Employee where id_employee=119
+To	How	Delete	High	12	-	650	13.12.2022 16:57:50
+Удален элемент с id:122
+delete from SYS.Employee where id_employee=122
+Ot	Woh	Eteled	Mid	10	-	300	13.12.2022 16:57:51
+Удален элемент с id:123
+delete from SYS.Employee where id_employee=123
+						0	13.12.2022 16:57:53
+Удален элемент с id:123
+delete from SYS.Employee where id_employee=123
+						0	13.12.2022 16:57:54
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'To', 'Delete', 'High', '-', 650, 12)
+To	How	Delete	High	12	-	650	13.12.2022 16:58:51
+Добавлен элемент:
+insert into SYS.Agreement (post, commission, term_id_term, employee_id_employee, employer_id_employer) values ('-', 0, 6, 124, 56)
+56	124	-	0	13.12.2022 16:58:52
+Добавлен элемент:
+insert into SYS.Agreement (post, commission, term_id_term, employee_id_employee, employer_id_employer) values ('-', 0, 3, 124, 58)
+58	124	-	0	13.12.2022 16:58:52
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('Woh', 'Ot', 'Eteled', 'High', '-', 550, 11)
+Ot	Woh	Eteled	High	11	-	550	13.12.2022 16:59:34
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('Der', 'Tom', 'Lop', 'Mid', '-', 550, 10)
+Tom	Der	Lop	Mid	10	-	550	13.12.2022 17:00:17
+Удален элемент с id:128
+delete from SYS.Employee where id_employee=128
+Tom	Der	Lop	Mid	10	-	550	13.12.2022 17:00:40
+Удален элемент с id:127
+delete from SYS.Employee where id_employee=127
+Ot	Woh	Eteled	High	11	-	550	13.12.2022 17:00:44
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('Woh', 'Now', 'That', 'High', '-', 620, 10)
+Now	Woh	That	High	10	-	620	13.12.2022 18:57:44
+Удален элемент с id:129
+delete from SYS.Employee where id_employee=129
+Now	Woh	That	High	10	-	620	13.12.2022 18:58:44
+Удален элемент с id:129
+delete from SYS.Employee where id_employee=129
+						0	13.12.2022 18:58:44
+Изменен элемент с id:124
+update SYS.Employee set surname='How', name='To', patronymic='Delete', qualification='High', addition='Some', salary=650, activity_id_activity=12 where id_employee=124
+To	How	Delete	High	12	Some	650	13.12.2022 19:00:05
+Удален элемент с id:125
+Select * from SYS.Agreement where employee_id_employee=124
+56	124	-	0	6	13.12.2022 19:00:05
+Удален элемент с id:126
+Select * from SYS.Agreement where employee_id_employee=124
+58	124	-	0	3	13.12.2022 19:00:05
+Добавлен элемент:
+insert into SYS.Agreement (post, commission, term_id_term, employee_id_employee, employer_id_employer) values ('-', 0, 4, 124, 56)
+56	124	-	0		13.12.2022 19:00:06
+Добавлен элемент:
+insert into SYS.Agreement (post, commission, term_id_term, employee_id_employee, employer_id_employer) values ('-', 0, 1, 124, 58)
+58	124	-	0		13.12.2022 19:00:06
+Изменен элемент с id:41
+update SYS.Employer set title='Der', adress='Mop 11', phone='+380777', activity_id_activity=8 where id_employer=41
+Der	8	Mop 11	+380777	21.12.2022 11:56:07
+Добавлен элемент:
+insert into SYS.Employer (title, adress, phone, activity_id_activity) values ('Mol', 'Nop 13', '+380555', 9)
+Mol	9	Nop 13	+380555	21.12.2022 11:56:51
+Добавлен элемент:
+insert into SYS.Employee (surname, name, patronymic, qualification, addition, salary, activity_id_activity) values ('How', 'Ot', 'Nol', 'High', '-', 450, 8)
+Ot	How	Nol	High	8	-	450	21.12.2022 11:57:29
+Добавлен элемент:
+insert into SYS.Agreement (post, commission, term_id_term, employee_id_employee, employer_id_employer) values ('-', 0, 3, 142, 21)
+21	142	-	0		21.12.2022 11:57:29
+Добавлен элемент:
+insert into SYS.Agreement (post, commission, term_id_term, employee_id_employee, employer_id_employer) values ('-', 0, 2, 142, 41)
+41	142	-	0		21.12.2022 11:57:30
+Изменен элемент с id:142
+update SYS.Employee set surname='How', name='Ot', patronymic='Nol', qualification='High', addition='-', salary=450, activity_id_activity=7 where id_employee=142
+Ot	How	Nol	High	7	-	450	21.12.2022 12:03:01
+Удален элемент с id:143
+Select * from SYS.Agreement where employee_id_employee=142
+21	142	-	0	3	21.12.2022 12:03:01
+Удален элемент с id:144
+Select * from SYS.Agreement where employee_id_employee=142
+41	142	-	0	2	21.12.2022 12:03:01
